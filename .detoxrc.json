@@ -36,20 +36,5 @@
     }
   },
   "test-runner": "jest",
-  "runner-config": "./e2e/config.json",
-  "artifacts": {
-    "rootDir": "e2e/screenshots",
-    "plugins": {
-      "screenshot": {
-        "enabled": false,
-        "shouldTakeAutomaticSnapshots": true,
-        "keepOnlyFailedTestsArtifacts": true,
-        "takeWhen": {
-          "testStart": false,
-          "testDone": false,
-          "appNotReady": false
-        }
-      }
-    }
-  }
+  "runner-config": "./e2e/config.json"
 }
