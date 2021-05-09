@@ -1,0 +1,37 @@
+{
+  "name": "DetoxExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.64.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.0",
+    "@babel/runtime": "7.14.0",
+    "@react-native-community/eslint-config": "2.0.0",
+    "@types/detox": "^17.14.0",
+    "@types/jasmine": "^3.6.3",
+    "@types/jest": "^26.0.19",
+    "@types/node": "^15.0.2",
+    "babel-jest": "^26.6.3",
+    "detox": "^18.13.0",
+    "detox-getprops": "^0.1.2",
+    "eslint": "7.25.0",
+    "jest": "^26.6.3",
+    "jest-circus": "^26.6.3",
+    "jest-html-reporters": "^2.1.6",
+    "metro-react-native-babel-preset": "0.66.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
