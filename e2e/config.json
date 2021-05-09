@@ -1,0 +1,19 @@
+{
+    "setupFilesAfterEnv": [
+        "./setup.js"
+    ],
+    "testEnvironment": "node",
+    "testRegex": "\\.spec\\.ts$",
+    "reporters": [
+        "default",
+        [
+            "jest-html-reporters",
+            {
+                "publicPath": "e2e/html-report/",
+                "filename": "report.html",
+                "expand": true
+            }
+        ]
+    ],
+    "verbose": true
+}
